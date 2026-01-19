@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+select,
+#qty {
+    width: 200px;
+    padding: 6px;
+    margin-top: 5px;
+}
+.checkbox-row input {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+button {
+    margin-top: 20px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}

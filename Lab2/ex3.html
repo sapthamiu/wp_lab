@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Birthday Card</title>
+        <link rel="stylesheet" href="ex3.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="ex3.js"></script>
+    </head> 
+    <body>
+        <div class="container"> 
+            <div class="controls">
+                <label>Choose a background color: </label> 
+                <select id="bgcolor">
+                    <option value="yellow">Yellow</option> 
+                    <option value="lightblue">Light Blue</option> 
+                    <option value="pink">Pink</option>
+                </select>
+                <label>Choose a font:</label> 
+                <select id="fontfamily">
+                    <option value="Verdana">Verdana</option> 
+                    <option value="Arial">Arial</option>
+                    <option value="Helvetica">Helvetica</option> 
+                </select>
+                <label>Specify a numeric font size:</label> 
+                <input type="number" id="fontsize" value="25">
+                <label>Choose a border style:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="border" value="none">None</label>
+                    <label><input type="radio" name="border" value="double" checked>Double</label>
+                    <label><input type="radio" name="border" value="solid">Solid</label>
+                </div>
+                <br>
+                <label class="checkbox-row">
+                    <input type="checkbox" id="showimg" checked> Add the Default Picture
+                </label>
+                <label>Enter the greeting text below:</label>
+                <textarea id="greetinput">Happy Birthday, and many more</textarea>
+                <button id="updatebtn">Update</button> 
+            </div>
+            <div id="cardpreview">
+                <p id="cardtext">Happy Birthday, and many more</p> 
+                <img src="Media/cake.png" id="cardimg">
+            </div> 
+        </div>
+    </body> 
+</html>

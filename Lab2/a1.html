@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devices</title>
+    <link rel="stylesheet" href="a1.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="a1.js"></script>
+</head>
+<body>
+    <label>Choose a brand: </label>
+    <select id="brand">
+        <option value="HP">HP</option>
+        <option value="Nokia">Nokia</option>
+        <option value="Samsung">Samsung</option>
+        <option value="Motorola">Motorola</option>
+        <option value="Apple">Apple</option>
+    </select>
+    <label class="checkbox-row">What are you buying? 
+        <input type="checkbox" class="device" id="laptop">Laptop
+        <input type="checkbox" class="device" id="phone"> Phone
+    </label>
+    <label>Enter the quantity:</label>
+    <input type="number" id="qty" value="1" min="1">
+    <button id="billbtn">Produce Bill</button>
+</body>
+</html>
+

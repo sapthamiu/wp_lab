@@ -1,0 +1,60 @@
+.container { 
+    display: flex; 
+    gap: 40px; 
+    padding: 20px;
+    font-family: Arial, sans-serif; 
+}
+
+.controls { 
+    width: 300px;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+#cardtext{
+    font-size: 25px;
+    margin-top: 60px;
+    line-height: 1.5;
+}
+#cardpreview { 
+    width: 350px; 
+    height: 450px;
+    background-color: yellow;
+    border-width: 5px;
+    border-style: double;
+    border-color: black;  
+    text-align: center;
+    padding: 30px; 
+}
+
+.radio-group label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 4px 0;
+}
+#cardimg {
+    width: 180px; 
+    margin-top: 40px auto 0;
+}
+
+textarea {
+    height: 100px; 
+}
+label{
+    font-weight: bold;
+}
+.checkbox-row{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#updatebtn{
+    width: 120px;
+    align-self: center;
+    padding: 6px 0;
+    font-size: 16px;
+    margin-top: 10px;
+}
