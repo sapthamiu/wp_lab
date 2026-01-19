@@ -1,0 +1,36 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+body{
+    background-image: url("Media/flow-clark-xXgU9CfOCgI-unsplash.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    
+    border: solid 1px black;
+    background-color: rgba(250, 248, 248, 0.747);
+    height: auto;
+    max-width: 800px;
+    width: 100%;
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: auto;
+    color: rgb(25, 25, 25);
+}
+p{
+    line-height: 1.6;
+    text-align:center;
+}
+a{
+    color: black;
+    font-size: smaller;
+}

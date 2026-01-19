@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th, td{
+    border: 2px solid black;
+    padding: 8px;
+}
+th{
+    background-color: red;
+    color:black;
+}
+.country{
+    background-color: #fff2a8;
+    font-weight: bold;
+}
+.year{
+    background-color: #9fbce0;
+    text-align: right;
+}
+.population{
+    background-color: #b9e6b9;
+    text-align: right;
+}
